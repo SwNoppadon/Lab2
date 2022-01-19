@@ -1,6 +1,6 @@
 # this shows how we can extend/change an existing official image from Docker Hub
 
-FROM nginx:alpine
+FROM nginx:lasted
 
 #COPY /home/ubuntu/Dockerfile /usr/share/nginx/html
 
