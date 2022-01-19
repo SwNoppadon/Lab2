@@ -2,7 +2,7 @@
 
 FROM nginx:alpine
 
-COPY . /usr/share/nginx/html
+COPY /home/ubuntu/Dockerfile /usr/share/nginx/html
 
 # highly recommend you always pin versions for anything beyond dev/learn
 
