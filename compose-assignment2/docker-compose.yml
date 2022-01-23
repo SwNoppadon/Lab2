@@ -4,7 +4,7 @@ version: '2'
 services:
 
   drupal:
-    image: custom-drupal
+    image: drupal
     build: .
     ports:
       - "8080:80"
