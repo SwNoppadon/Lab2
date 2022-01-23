@@ -6,6 +6,6 @@ services:
     ports:
       - '80:80' # expose 8088 on host and sent to 80 in container
     volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx.conf:/var/lib/docker/volumes/
   web:
     image: httpd  # this will use httpd:latest
